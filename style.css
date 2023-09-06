@@ -1,0 +1,184 @@
+
+#Retour
+{
+    background-color: rgb(86, 86, 144);
+    border: black groove 1px;
+    color: rgb(189, 189, 189);
+}
+.taille
+{
+    border-right: groove black 5px;
+    font-size: 15px;
+}
+.centrer,#gauche,#droite,#Milieu
+{
+    text-align: center;
+}
+.ble
+{
+    color: rgb(86, 86, 144);
+}
+.jaune
+{
+    color: rgb(103, 103, 13);
+}
+#etude,#M,#gauche,#droite
+{
+    text-align: center;
+}
+#th1,#inex
+{
+    border-right: 4px rgb(9, 9, 9) groove;
+}
+table
+{
+
+    border-collapse: collapse;
+    text-align: center;
+}
+th
+{
+    border-bottom: 4px rgb(9, 9, 9) groove;
+    padding-bottom: 0px;
+}
+body
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: rgb(189, 189, 189);
+    border-style:initial;
+    border-radius: 18px;
+    box-shadow: 0px 5px 5px rgb(189, 189, 189);
+    font-family:'Times New Roman', Times, serif;
+    height: 100%;
+}
+header
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 20px;
+    text-align: center;
+    
+    
+    
+}
+.back
+{
+    background-color: rgb(86, 86, 144);
+    width: 100px;
+    border-radius: 5px;
+}
+.secex1,.secexs2
+{
+    padding-left: 15px;
+    font-size: 20px;  
+}
+fieldset
+{
+    width: 200px;
+    padding-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 18px;
+
+}
+.filsetinex1
+{
+    width: 550px;
+}
+.bodyind
+{
+    display: grid;
+    grid-template-columns: auto minmax(10%, 70%);
+    grid-template-areas:  "tete tete"
+                          "corp cot"
+                          "pied pied";
+}
+table
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    width: 600px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.titre
+{
+    background-color: rgb(86, 86, 144);
+    color: rgb(189, 189, 189);
+    
+}
+.flexi
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 100%;
+}
+menu
+{
+    text-align: start;
+    padding-left: 10px;
+    margin-right: 0px;
+    font-family:monospace ;
+    font-size:250%;
+    background-color: rgb(198, 133, 133);
+    border-radius: 10px;
+    border-style:hidden;
+    border-color: rgb(2, 2, 2);
+    box-shadow: 0px 5px 5px rgb(2, 2, 2);
+    color: rgb(189, 189, 189);
+}
+html
+{
+    background-image: url("IMG_3577.JPG");
+}
+.fot
+{
+    grid-area: pied;
+    padding-top: 100px;
+    text-align: center;
+}
+.sec
+{
+    grid-area: corp;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.as
+{
+    grid-area: cot;
+}
+.hd1
+{
+    grid-area: tete;
+    font-size: 12px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#donnees
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+footer
+{
+    color: rgb(86, 86, 144); 
+}
+legend
+{
+    color: rgb(86, 86, 144);
+    font-family: monospace; 
+}
+.contacts
+{
+    width: 100px;
+    grid-template-rows: auto;
+    text-align: center;
+    margin: auto;
+}
+
