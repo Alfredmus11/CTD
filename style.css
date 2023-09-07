@@ -179,6 +179,6 @@ legend
     width: 100px;
     grid-template-rows: auto;
     text-align: center;
-    margin: auto;
+    padding-left: 25px
 }
 
